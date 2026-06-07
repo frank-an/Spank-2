@@ -192,7 +192,7 @@ sudo spank -w --k 's=|你好！|在吗？|有个事想请教一下|算了没事�
 
 ```bash
 cd source-file
-GOFLAGS=-mod=mod GOPROXY=https://goproxy.cn,direct go build -o ../spank -ldflags="-s -w" .
+GOFLAGS=-mod=mod go build -o ../spank -ldflags="-s -w" .
 ```
 
 ## 技术细节
