@@ -12,12 +12,12 @@
 
 # 项目结构
 
-- **spank**: 已编译的二进制Linux可执行文件
+- **source-file**
+  - **go.mod**: Go 模块定义
+  - **go.sum**: 依赖校验
+  - **main.go**: 主程序
+  - **input_darwin.go**: macOS 底层输入模拟
 - **README.MD**: 此文档
-- **go.mod**: Go 模块定义
-- **go.sum**: 依赖校验
-- **main.go**: 主程序
-- **input_darwin.go**: macOS 底层输入模拟
 
 ## 命令
 
