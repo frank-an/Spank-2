@@ -1,5 +1,7 @@
 # Spank-2
 
+[**English README**](./README_EN.md)
+
 拍打 MacBook 笔记本时自动模拟按键或输入文字。
 
 利用 Apple Silicon 加速计检测敲击/拍打，通过 CoreGraphics 模拟键盘事件。
